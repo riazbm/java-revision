@@ -6,7 +6,7 @@ public class example2 {
 
         final double PI = 3.141;
         final double KG_per_POUND = 0.45359;
-        final double M_per_INCH = 0.0254;
+        final double Meter_per_INCH = 0.0254;
         double area;
 
         System.out.println("enter radius:");
@@ -26,7 +26,7 @@ public class example2 {
         double height = input.nextDouble();
 
         double weightInKilograms = weight * KG_per_POUND;
-        double heightInMeters = height * M_per_INCH;
+        double heightInMeters = height * Meter_per_INCH;
         double BMI = weightInKilograms / (heightInMeters * heightInMeters);
 
         System.out.println("BMI is " + BMI);
