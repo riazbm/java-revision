@@ -8,13 +8,13 @@ public class Example1 {
         double area;
         double circumference;
 
-        System.out.println("enter the number for radius: ");
-        double radius = input.nextDouble();
+        System.out.println("enter the number for seconds: ");
+        int seconds = input.nextInt();
 
-        area = radius * radius * PI;
-        circumference = PI * (radius * 2);
+        int minutes = seconds / 60;
+        int remainingSeconds = seconds % 60;
 
-        System.out.println("area of a circle is" + area);
-        System.out.println("circumference of the circle is " + circumference);
+        System.out.println(seconds + "seconds is" + minutes + "minutes and" + remainingSeconds + "seconds");
+
     }
 }
