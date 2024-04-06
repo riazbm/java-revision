@@ -15,6 +15,7 @@ public class Example1 {
         int remainingSeconds = seconds % 60;
 
         System.out.println(seconds + "seconds is" + minutes + "minutes and" + remainingSeconds + "seconds");
+        System.out.println(Math.pow(2, 5));
 
     }
 }
